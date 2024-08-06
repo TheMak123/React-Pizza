@@ -1,0 +1,127 @@
+
+.logo {
+    width: 316px; height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.logo_text1{
+    font-size: 34px;
+    position: relative;
+    left: 13px;
+    bottom: 40px;
+}
+
+.logo_text2{
+    font-size: 16px;
+    position: relative;
+    left: 13px;
+    bottom: 75px;
+}
+
+
+
+
+
+
+.cart-btn {
+    width: 150px; height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1650px;
+    position: relative;
+    bottom: 40px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.total-count {
+    width: 30px; height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.count{
+    position: relative;
+    left:5px;
+}
+
+.val{
+    position: relative;
+    left: 5px;
+}
+
+
+
+
+.pizza-type{
+    width: 1225px; height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+
+.btn{
+    font-size: 28px;
+}
+
+.btm_active{
+    background-color: black;
+    color: white;
+}
+
+.pizza-sort{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 14px;
+    left: 810px;
+}
+
+.select-pizza{
+    position: relative;
+    left: 5px;
+    top: 7px;
+}
+
+.option-txt{
+    font-size: 20px;
+}
+
+option{
+    font-size: 20px;
+}
+
+.pizzas_text{
+    width: 166px; height: 39px;
+    font-size: 28px;
+    position: relative;
+    left: 53px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_icon_title{
+    margin-top: 1000px;
+}

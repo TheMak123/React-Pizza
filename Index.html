@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>React pizza</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class="mainPage">
+        <div class="header">
+            <div class="logo">
+               <img src="./assets/icons/logo.png">
+               <div>
+                <p class="logo_text1">React Pizza</p>
+                <p class="logo_text2">самая вкусная пицца во вселенной</p>
+                </div>
+            </div>
+            <button class="cart-btn">
+                <div class="total-price">
+                    <p class="price">0</p>
+                    <p class="val">KZT</p>
+                </div>
+                <div class="line"></div>
+                <div class="total-count">
+                    <img src="./assets/icons/cart.png">
+                    <p class="count">0</p>
+                </div>
+            </button>
+        </div>
+
+        <div class="pizza-type">
+            <div class="type_btns">
+                <button class="btn btm_active">Все</button>
+                <button class="btn">Мясные</button>
+                <button class="btn">Вегетарианская</button>
+                <button class="btn">Гриль</button>
+                <button class="btn">Острые</button>
+                <button class="btn">Закрытые</button>
+            </div>
+
+            <div class="pizza-sort">
+                <p class="option-txt">Сортировка по:</p>
+                <select class="select-pizza">
+                    <option hidden>-выбор-</option>
+                    <option value="price">цена</option>
+                    <option value="name">алфавиту</option>
+                </select>
+            </div>
+        </div>
+
+        <h1 class="pizzas_text">Все пиццы</h1>
+        
+
+        <div class="pizza-items"></div>
+
+
+        <!--- CART PAGE -->
+        <div class="wrapper cartPage none">
+            <div class="header">
+                <div class="header_icon_title">
+                    <img src="./assets/icons/logo.png">
+                    <div>
+                    <p class="logo_text1">React Pizza</p>
+                    <p class="logo_text2">самая вкусная пицца во вселенной</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <main class="cart_main">
+         <section class="cart_section">
+            <div class="cart_title">
+                <div class="cart_text">
+                    <img src="./assets/icons/cart.png">
+                    <h1>Корзина</h1>
+                </div>
+                <div class="trash_text">
+                    <img src="./assets/icons/trash.png">
+                    <h1>Очистить корзину</h1>
+                </div>
+            </div>
+            <div class="cart_items"></div>
+            <div class="cart_price">
+                <div class="cart_price-count">
+                    <p>Всего пицц:<span class="countPizzas">0</span> шт. </p>
+                    </div>
+                    <div class="cart_price-total">
+                        <p>Сумма заказа: <span class="totalPrice">0</span> Р </p>
+                    </div>
+                </div>
+                <div class="cart_pay">
+                    <button class="returnMain">Вернуться назад</button>
+                    <button>Оплатить сейчас</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!--- Empty page -->
+    <div class="emptyPage none">
+        <h1>Корзина пустая</h1>
+        <p>Вероятней всего, вы не заказывали ещё пиццу. Для того чтобы заказать пиццу, перейдите на главную страницу</p>
+        <img src="./assets/icons/empty.png">
+        <button class="returnMainInEmpyty">Вернуться назад</button>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./data.js"></script>
+    <script src="./cart.js"></script>
+        
+</body>
